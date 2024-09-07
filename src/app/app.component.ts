@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
     imgElement.src =
       'https://www.insticc.org/node/TechnicalProgram/56e7352809eb881d8c5546a9bbf8406e.png';
   }
-  title = 'newsapp';
+  title = 'News ';
   newsarray: any[] | undefined;
 
   constructor(private newsApi: NewsapidotnetService) {}
